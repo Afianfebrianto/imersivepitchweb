@@ -1,0 +1,6 @@
+*.pdf
+pdf_pages/
+extracted_assets/
+preview_*.png
+*.log
+

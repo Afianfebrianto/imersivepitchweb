@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Immersive Management | Solusi Strategis SDM Untuk Bisnis yang Lebih Baik</title>
+  <meta name="description" content="Immersive Management adalah anak perusahaan Kiosatu Digital Marketing yang bergerak di bidang konsultasi dan pengelolaan Sumber Daya Manusia. Bangun organisasi sehat, produktif, dan berdaya saing.">
+  <meta name="keywords" content="Immersive Management, Konsultan SDM, Pengelolaan SDM, SOP, KPI, Rekrutmen Karyawan, Pelatihan SDM, Kiosatu Digital Marketing">
+  <meta name="theme-color" content="#1e3a8a">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Immersive Management - Solusi Strategis SDM">
+  <meta property="og:description" content="Solusi Strategis SDM Untuk Bisnis yang Lebih Baik. Bangun organisasi sehat, SOP & KPI terstruktur.">
+  <meta property="og:image" content="assets/img/logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 CDN for modern icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/img/logo-transparent.png">
+</head>
+<body>
+
+  <!-- ==================== TOP ANNOUNCEMENT BAR ==================== -->
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <div class="announcement-left">
+        <span class="badge-tag"><i class="fa-solid fa-sparkles"></i> Official Partner</span>
+        <span class="announcement-text">Anak Perusahaan Resmi dari <strong>Kiosatu Digital Marketing</strong></span>
+      </div>
+      <div class="announcement-right">
+        <a href="tel:082357131943" class="announcement-link"><i class="fa-solid fa-phone"></i> 0823 5713 1943</a>
+        <span class="divider">|</span>
+        <a href="https://instagram.com/immersive.management" target="_blank" rel="noopener" class="announcement-link"><i class="fa-brands fa-instagram"></i> @immersive.management</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN NAVIGATION HEADER ==================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Immersive Management">
+        <img src="assets/img/logo-icon.png" alt="Immersive Management Logo" class="logo-img">
+        <div class="brand-text">
+          <span class="brand-name">IMMERSIVE</span>
+          <span class="brand-sub">MANAGEMENT</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#vision-mission" class="nav-link">Visi & Misi</a></li>
+          <li><a href="#portfolio" class="nav-link">Portofolio</a></li>
+          <li><a href="#workflow" class="nav-link">Tahap Pekerjaan</a></li>
+          <li><a href="#pricing" class="nav-link">Paket & Harga</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <!-- Pitch Deck Mode Button -->
+        <button type="button" class="btn btn-outline-deck" id="openPitchDeckBtn" title="Buka Mode Presentasi Pitch Deck">
+          <i class="fa-solid fa-person-chalkboard"></i>
+          <span>Mode Presentasi</span>
+        </button>
+
+        <!-- WhatsApp Direct CTA -->
+        <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20pengelolaan%20SDM%20untuk%20perusahaan%20saya." target="_blank" rel="noopener" class="btn btn-primary nav-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Konsultasi</span>
+          <span class="online-pulse" title="Konsultan Online"></span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="Buka Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Menu Mobile">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/img/logo-icon.png" alt="Logo" class="drawer-logo">
+        <div>
+          <span class="drawer-title">IMMERSIVE</span>
+          <span class="drawer-sub">MANAGEMENT</span>
+        </div>
+      </div>
+      <button type="button" class="drawer-close" id="drawerCloseBtn" aria-label="Tutup Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <ul class="drawer-nav-list">
+        <li><a href="#hero" class="drawer-link"><i class="fa-solid fa-house"></i> Beranda</a></li>
+        <li><a href="#about" class="drawer-link"><i class="fa-solid fa-building"></i> Tentang Kami</a></li>
+        <li><a href="#vision-mission" class="drawer-link"><i class="fa-solid fa-bullseye"></i> Visi & Misi</a></li>
+        <li><a href="#portfolio" class="drawer-link"><i class="fa-solid fa-briefcase"></i> Portofolio Klien</a></li>
+        <li><a href="#workflow" class="drawer-link"><i class="fa-solid fa-list-check"></i> Tahap Pekerjaan</a></li>
+        <li><a href="#pricing" class="drawer-link"><i class="fa-solid fa-tags"></i> Paket & Harga</a></li>
+        <li><a href="#contact" class="drawer-link"><i class="fa-solid fa-address-book"></i> Kontak & Lokasi</a></li>
+      </ul>
+
+      <div class="drawer-actions">
+        <button type="button" class="btn btn-outline-deck w-100" id="drawerPitchDeckBtn">
+          <i class="fa-solid fa-person-chalkboard"></i>
+          <span>Mode Presentasi Pitch Deck</span>
+        </button>
+        <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20pengelolaan%20SDM." target="_blank" rel="noopener" class="btn btn-success w-100">
+          <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Tagline Pill -->
+          <div class="hero-badge animate-fade">
+            <span class="badge-icon"><i class="fa-solid fa-chart-line"></i></span>
+            <span class="badge-title">Konsultan & Pengelolaan Sumber Daya Manusia Terpercaya</span>
+          </div>
+
+          <!-- Main Hero Title -->
+          <h1 class="hero-title animate-fade delay-1">
+            IMMERSIVE<br>
+            <span class="text-gradient">MANAGEMENT</span>
+          </h1>
+
+          <!-- Punchy Slogan from Slide 1 -->
+          <p class="hero-subtitle animate-fade delay-2">
+            SOLUSI STRATEGIS SDM UNTUK BISNIS YANG LEBIH BAIK.
+          </p>
+
+          <p class="hero-description animate-fade delay-3">
+            Membantu perusahaan Anda membangun pondasi organisasi yang sehat, produktif, dan siap ekspansi melalui rekrutmen tepat, penyusunan SOP terstruktur, dan evaluasi KPI yang terukur.
+          </p>
+
+          <!-- Call To Action Group -->
+          <div class="hero-cta-group animate-fade delay-4">
+            <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20tertarik%20konsultasi%20pengelolaan%20SDM%20untuk%20perusahaan%20saya." target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Konsultasi Gratis Sekarang</span>
+            </a>
+            <a href="#workflow" class="btn btn-glass btn-lg">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Lihat 7 Tahap Pekerjaan</span>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-metrics animate-fade delay-5">
+            <div class="metric-card">
+              <div class="metric-number">8+</div>
+              <div class="metric-label">Klien Ternama Dipercaya</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">7</div>
+              <div class="metric-label">Tahap Pekerjaan Terukur</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">100%</div>
+              <div class="metric-label">Pendampingan Implementasi</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">Rp 7.5 Jt</div>
+              <div class="metric-label">Paket All-in-One SDM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave Bottom Divider -->
+      <div class="hero-wave">
+        <svg viewBox="0 0 1440 120" fill="none" preserveAspectRatio="none">
+          <path d="M0,32L60,42.7C120,53,240,75,360,80C480,85,600,75,720,64C840,53,960,43,1080,48C1200,53,1320,75,1380,85.3L1440,96L1440,120L1380,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z" fill="var(--bg-light)"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT US SECTION (Slide 2) ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Visual: Computer Mockup with Logo -->
+          <div class="about-visual">
+            <div class="mockup-wrapper">
+              <div class="mockup-glow"></div>
+              <img src="assets/img/about-monitor-transparent.png" alt="Immersive Management Desktop Mockup" class="monitor-img">
+              
+              <!-- Floating Card Badges -->
+              <div class="floating-badge badge-top-right">
+                <div class="badge-icon-box bg-primary"><i class="fa-solid fa-award"></i></div>
+                <div>
+                  <div class="badge-title">Mitra Terpercaya</div>
+                  <div class="badge-text">Sistem SDM Terukur</div>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom-left">
+                <div class="badge-icon-box bg-purple"><i class="fa-solid fa-users-gear"></i></div>
+                <div>
+                  <div class="badge-title">Anak Perusahaan</div>
+                  <div class="badge-text">Kiosatu Digital Marketing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content: About Narrative -->
+          <div class="about-content">
+            <div class="section-tag-pill">
+              <i class="fa-solid fa-building-user"></i>
+              <span>About Us</span>
+            </div>
+            
+            <h2 class="section-title">
+              Membangun Organisasi yang <span class="highlight-text">Sehat, Produktif,</span> dan Berdaya Saing
+            </h2>
+
+            <!-- Quotation Card from Slide 2 -->
+            <div class="about-quote-box">
+              <div class="quote-mark"><i class="fa-solid fa-quote-left"></i></div>
+              <p class="about-narrative">
+                <strong>Immersive Management</strong> adalah anak perusahaan dari <strong>Kiosatu Digital Marketing</strong> yang secara khusus bergerak di bidang <strong>konsultasi dan pengelolaan Sumber Daya Manusia</strong>.
+              </p>
+              <p class="about-commitment">
+                Kami berkomitmen membantu perusahaan membangun organisasi yang sehat, produktif, dan berdaya saing melalui sistem SDM yang terukur dan berkelanjutan.
+              </p>
+            </div>
+
+            <!-- Value Pillars -->
+            <div class="value-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                <div class="pillar-body">
+                  <h4>Organisasi Sehat</h4>
+                  <p>Struktur jabatan terdefinisi rapi sehingga tugas dan wewenang setiap anggota tim jelas tanpa konflik peran.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                <div class="pillar-body">
+                  <h4>Produktivitas Maksimal</h4>
+                  <p>Standard Operating Procedure (SOP) dan Key Performance Indicator (KPI) yang realistis serta mudah dipantau.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-seedling"></i></div>
+                <div class="pillar-body">
+                  <h4>Pertumbuhan Berkelanjutan</h4>
+                  <p>Pelatihan berkesinambungan dan evaluasi kinerja objektif demi menyiapkan bisnis menuju skala yang lebih besar.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta">
+              <a href="#vision-mission" class="btn btn-primary">
+                <span>Pelajari Visi & Misi Kami</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VISION & MISSION SECTION (Slide 3) ==================== -->
+    <section class="section vision-mission-section" id="vision-mission">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <div class="section-tag-pill">
+            <i class="fa-solid fa-compass"></i>
+            <span>Arah & Tujuan Kami</span>
+          </div>
+          <h2 class="section-title">Visi & Misi Perusahaan</h2>
+          <p class="section-desc">
+            Komitmen fundamental kami dalam menjadi mitra akselerasi pertumbuhan sumber daya manusia bagi para pelaku bisnis.
+          </p>
+        </div>
+
+        <div class="vm-grid">
+          <!-- VISION CARD -->
+          <div class="vision-card">
+            <div class="vm-badge-title">
+              <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
+              <h3>Vision</h3>
+            </div>
+            <div class="vision-content">
+              <div class="vision-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <blockquote class="vision-text">
+                "Menjadi mitra terpercaya dalam pengelolaan dan pengembangan SDM yang mendorong individu, tim, dan perusahaan untuk terus bertumbuh secara berkelanjutan."
+              </blockquote>
+              <div class="vision-highlight-bar">
+                <span><i class="fa-solid fa-check"></i> Mitra Terpercaya</span>
+                <span><i class="fa-solid fa-check"></i> Pertumbuhan Berkelanjutan</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- MISSION CARD -->
+          <div class="mission-card">
+            <div class="vm-badge-title">
+              <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
+              <h3>Mission</h3>
+            </div>
+            
+            <p class="mission-intro">Langkah nyata yang kami eksekusi dalam setiap pendampingan bisnis:</p>
+
+            <div class="mission-list">
+              <div class="mission-item">
+                <div class="mission-num">01</div>
+                <div class="mission-body">
+                  <h4>Merekrut Talenta Tepat</h4>
+                  <p>Merekrut talenta sesuai kebutuhan riil dan budaya perusahaan.</p>
+                </div>
+              </div>
+
+              <div class="mission-item">
+                <div class="mission-num">02</div>
+                <div class="mission-body">
+                  <h4>Membangun Sistem Efektif</h4>
+                  <p>Membangun sistem organisasi yang efektif dan terstruktur rapi.</p>
+                </div>
+              </div>
+
+              <div class="mission-item">
+                <div class="mission-num">03</div>
+                <div class="mission-body">
+                  <h4>Mengembangkan SOP & KPI</h4>
+                  <p>Mengembangkan SOP dan KPI yang mendukung produktivitas kerja harian.</p>
+                </div>
+              </div>
+
+              <div class="mission-item">
+                <div class="mission-num">04</div>
+                <div class="mission-body">
+                  <h4>Meningkatkan Kompetensi</h4>
+                  <p>Meningkatkan kompetensi SDM melalui pelatihan berkelanjutan.</p>
+                </div>
+              </div>
+
+              <div class="mission-item">
+                <div class="mission-num">05</div>
+                <div class="mission-body">
+                  <h4>Evaluasi Kinerja Objektif</h4>
+                  <p>Mengelola dan mengevaluasi kinerja secara objektif dan terukur.</p>
+                </div>
+              </div>
+
+              <div class="mission-item">
+                <div class="mission-num">06</div>
+                <div class="mission-body">
+                  <h4>Mitra Pertumbuhan Strategis</h4>
+                  <p>Menjadi mitra strategis dalam pertumbuhan bisnis klien.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO SECTION (Slide 4) ==================== -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <div class="section-tag-pill">
+            <i class="fa-solid fa-handshake"></i>
+            <span>Our Portofolio</span>
+          </div>
+          <h2 class="section-title">Mereka yang Telah Mempercayai Kami</h2>
+          <p class="section-desc">
+            Berbagai brand dan perusahaan terkemuka dari sektor properti, F&B, industri percetakan, biro perjalanan, hingga ritel yang telah mempercayakan sistem SDM mereka kepada <strong>Immersive Management</strong>.
+          </p>
+        </div>
+
+        <!-- Portfolio Logos Grid -->
+        <div class="portfolio-grid">
+          <!-- 1. Delft Apartemen -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/delft-apartemen.png" alt="Delft Apartemen" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Delft Apartemen</h4>
+              <span class="client-category">Properti & Hospitality</span>
+              <p class="client-desc">Penyusunan standar layanan, struktur operasional manajemen apartemen & rekrutmen staf inti.</p>
+            </div>
+          </div>
+
+          <!-- 2. Pizza Nyantuy -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/pizza-nyantuy.png" alt="Pizza Nyantuy" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Pizza Nyantuy</h4>
+              <span class="client-category">Food & Beverage</span>
+              <p class="client-desc">Standardisasi SOP kitchen, pelayanan kasir, dan penetapan KPI produktivitas outlet kuliner.</p>
+            </div>
+          </div>
+
+          <!-- 3. Pisang Madu Paman -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/pisang-madu-paman.png" alt="Pisang Madu Paman" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Pisang Madu Paman</h4>
+              <span class="client-category">Kuliner & Franchise</span>
+              <p class="client-desc">Penyusunan jobdesc terpadu, pelatihan SDM front-liner, dan sistem evaluasi kerja berkala.</p>
+            </div>
+          </div>
+
+          <!-- 4. Vindes24 Digital Printing -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/vindes24.png" alt="Vindes24 Digital Printing" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Vindes24 Digital Printing</h4>
+              <span class="client-category">Digital Printing & Percetakan</span>
+              <p class="client-desc">Sistem operasional workshop produksi, alur komunikasi divisi teknis & penilaian performa kerja.</p>
+            </div>
+          </div>
+
+          <!-- 5. Mawar Advertising -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/mawar-advertising.png" alt="Mawar Advertising" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Mawar Advertising</h4>
+              <span class="client-category">Advertising & Media Agency</span>
+              <p class="client-desc">Penataan struktur organisasi kreatif, job description account manager & rekrutmen tim desain.</p>
+            </div>
+          </div>
+
+          <!-- 6. Printama Packaging -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/printama-packaging.png" alt="Printama Packaging" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Printama Packaging</h4>
+              <span class="client-category">Industri Packaging</span>
+              <p class="client-desc">SOP kontrol kualitas produk kemasan, target kinerja divisi manufaktur & pendampingan tim.</p>
+            </div>
+          </div>
+
+          <!-- 7. Qiblatain Moslem Travel -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/qiblatain.png" alt="Qiblatain Moslem Travel Organizer" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Qiblatain Moslem Travel</h4>
+              <span class="client-category">Travel Umrah & Wisata</span>
+              <p class="client-desc">Standardisasi hospitality tour leader, administrasi reservasi & KPI kepuasan jamaah.</p>
+            </div>
+          </div>
+
+          <!-- 8. Kacamata SFI -->
+          <div class="portfolio-card">
+            <div class="portfolio-badge-img">
+              <img src="assets/portfolio/kacamata-sfi.png" alt="Kacamata SFI" loading="lazy">
+            </div>
+            <div class="portfolio-info">
+              <h4 class="client-name">Kacamata SFI</h4>
+              <span class="client-category">Retail & Fashion Eyewear</span>
+              <p class="client-desc">Pelatihan sales optical retail, standard pelayanan customer dan monitoring capaian omset tim.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust Callout -->
+        <div class="portfolio-callout">
+          <div class="callout-text">
+            <h3>Siap Menjadi Mitra Sukses Berikutnya?</h3>
+            <p>Konsultasikan kendala pengelolaan karyawan dan struktur organisasi bisnis Anda bersama tim ahli kami.</p>
+          </div>
+          <a href="#contact" class="btn btn-primary">
+            <span>Mulai Konsultasi Bisnis</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WORKFLOW / PROCESS SECTION (Slide 5) ==================== -->
+    <section class="section workflow-section" id="workflow">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <div class="section-tag-pill">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>Metodologi Teruji</span>
+          </div>
+          <h2 class="section-title">7 Tahap Pekerjaan Sistematis</h2>
+          <p class="section-desc">
+            Pendekatan komprehensif dari wawancara awal, audit organisasi, perancangan SOP & KPI, hingga pendampingan lapangan agar sistem berjalan optimal.
+          </p>
+        </div>
+
+        <!-- Interactive Timeline Navigation -->
+        <div class="timeline-stepper" role="tablist">
+          <button type="button" class="step-btn active" data-step="1">
+            <span class="step-num">01</span>
+            <span class="step-label">Assesment</span>
+          </button>
+          <button type="button" class="step-btn" data-step="2">
+            <span class="step-num">02</span>
+            <span class="step-label">Analisis</span>
+          </button>
+          <button type="button" class="step-btn" data-step="3">
+            <span class="step-num">03</span>
+            <span class="step-label">Sistem SDM</span>
+          </button>
+          <button type="button" class="step-btn" data-step="4">
+            <span class="step-num">04</span>
+            <span class="step-label">Penetapan KPI</span>
+          </button>
+          <button type="button" class="step-btn" data-step="5">
+            <span class="step-num">05</span>
+            <span class="step-label">Pelatihan</span>
+          </button>
+          <button type="button" class="step-btn" data-step="6">
+            <span class="step-num">06</span>
+            <span class="step-label">Pendampingan</span>
+          </button>
+          <button type="button" class="step-btn" data-step="7">
+            <span class="step-num">07</span>
+            <span class="step-label">Evaluasi</span>
+          </button>
+        </div>
+
+        <!-- 7 Stages Cards Flow Grid -->
+        <div class="stages-flow-grid">
+          <!-- Step 1 -->
+          <div class="stage-card active" id="stage-card-1" data-step="1">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 01</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> First Week</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-clipboard-question"></i></div>
+            <h3 class="stage-title">Assesment & Observasi</h3>
+            <p class="stage-text">
+              Melakukan wawancara mendalam dengan pimpinan terkait permasalahan dan harapan, kemudian dilanjutkan dengan wawancara dan observasi langsung kepada karyawan untuk pemenuhan data lapangan.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Laporan Diagnosa Awal & Pemetaan Isu SDM</span>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="stage-card" id="stage-card-2" data-step="2">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 02</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> Second Week</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-sitemap"></i></div>
+            <h3 class="stage-title">Analisis Organisasi & SDM</h3>
+            <p class="stage-text">
+              Menganalisis struktur organisasi saat ini, kebutuhan jumlah dan kompetensi SDM (workload analysis), serta penataan pembagian tugas dan tanggung jawab masing-masing lini.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Analisa Kebutuhan Tenaga Kerja & Gap Skill</span>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="stage-card" id="stage-card-3" data-step="3">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 03</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> Third Week</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-file-invoice"></i></div>
+            <h3 class="stage-title">Penyusunan Sistem SDM</h3>
+            <p class="stage-text">
+              Menyusun bagan struktur organisasi final, job description yang presisi, analisis jabatan lengkap, serta Standard Operating Procedure (SOP) baku untuk setiap divisi bisnis.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Dokumen SOP Divisi & Buku Pedoman Kerja</span>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="stage-card" id="stage-card-4" data-step="4">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 04</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> Fourth Week</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-bullseye"></i></div>
+            <h3 class="stage-title">Penetapan KPI</h3>
+            <p class="stage-text">
+              Menyusun Key Performance Indicator (KPI) yang realistis, indikator kinerja objektif, dan target kerja kuantitatif untuk setiap posisi, tim, dan kepala divisi.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Matriks KPI & Lembar Penilaian Karyawan</span>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="stage-card" id="stage-card-5" data-step="5">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 05</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> Execution Phase</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3 class="stage-title">Pengembangan SDM</h3>
+            <p class="stage-text">
+              Melaksanakan program pelatihan kerja interaktif, workshop soft skill & hard skill, serta pengembangan kompetensi tim sesuai dengan target produktivitas perusahaan.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Modul Pelatihan & Peningkatan Skill Karyawan</span>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="stage-card" id="stage-card-6" data-step="6">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 06</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> Rollout Phase</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-hands-holding-child"></i></div>
+            <h3 class="stage-title">Implementasi & Pendampingan</h3>
+            <p class="stage-text">
+              Mendampingi langsung penerapan sistem SDM baru, SOP operasional, dan tracking KPI harian agar berjalan lancar, efektif, dan diterima baik oleh seluruh tim.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Pendampingan Praktik Lapangan & Asistensi SOP</span>
+            </div>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="stage-card" id="stage-card-7" data-step="7">
+            <div class="stage-header">
+              <div class="stage-badge">Tahap 07</div>
+              <span class="stage-timing"><i class="fa-regular fa-clock"></i> Continuous Growth</span>
+            </div>
+            <div class="stage-icon-box"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3 class="stage-title">Evaluasi & Pengembangan Berkelanjutan</h3>
+            <p class="stage-text">
+              Melakukan evaluasi berkala terhadap kinerja karyawan serta memberikan rekomendasi perbaikan strategis jangka panjang untuk mendukung pertumbuhan berkelanjutan perusahaan.
+            </p>
+            <div class="stage-deliverable">
+              <i class="fa-solid fa-check-double"></i>
+              <span>Output: Laporan Evaluasi Kinerja & Roadmap HR Berkelanjutan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PACKAGE PRICELIST SECTION (Slide 6) ==================== -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <div class="section-tag-pill">
+            <i class="fa-solid fa-gem"></i>
+            <span>Paket Investasi Spesial</span>
+          </div>
+          <h2 class="section-title">Package Pricelist All-in-One</h2>
+          <p class="section-desc">
+            Satu paket investasi komprehensif untuk menata fondasi, operasional, dan performa SDM bisnis Anda dari nol hingga berjalan efektif.
+          </p>
+        </div>
+
+        <div class="pricing-spotlight-box">
+          <!-- Background Grid Pattern -->
+          <div class="pricing-bg-grid"></div>
+
+          <div class="pricing-columns">
+            <!-- Left: Pricing Card Details -->
+            <div class="pricing-main-card">
+              <div class="pricing-header-pill">
+                <span class="badge-best-value"><i class="fa-solid fa-star"></i> Paling Diminati Klien</span>
+                <span class="badge-guarantee"><i class="fa-solid fa-shield-halved"></i> Garansi Terstruktur</span>
+              </div>
+
+              <h3 class="package-name">PAKET KONSULTASI & PENGELOLAAN SDM</h3>
+              <p class="package-tagline">Solusi terintegrasi lengkap untuk UKM & Perusahaan yang ingin rapi dan profesional.</p>
+
+              <!-- Price Display from Slide 6 -->
+              <div class="price-container">
+                <span class="price-currency">RP</span>
+                <span class="price-amount">7.500.000</span>
+                <span class="price-period">/ Project Penuh</span>
+              </div>
+
+              <div class="price-divider"></div>
+
+              <!-- 6 Core Deliverables Checklist from Slide 6 -->
+              <h4 class="deliverables-heading"><i class="fa-solid fa-circle-check"></i> Sudah Termasuk 6 Layanan Inti:</h4>
+              <ul class="pricing-features-list">
+                <li class="feature-item">
+                  <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                  <div class="feature-text">
+                    <strong>PEREKRUTAN SDM BERKUALITAS DAN ANALISIS JABATAN</strong>
+                    <span>Penyaringan kandidat terbaik yang sesuai dengan kualifikasi dan kebutuhan bisnis.</span>
+                  </div>
+                </li>
+
+                <li class="feature-item">
+                  <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                  <div class="feature-text">
+                    <strong>PENYUSUNAN JOBDESC DAN STRUKTUR ORGANISASI</strong>
+                    <span>Rancangan hirarki organisasi yang proporsional dan rincian tanggung jawab jelas.</span>
+                  </div>
+                </li>
+
+                <li class="feature-item">
+                  <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                  <div class="feature-text">
+                    <strong>PENGEMBANGAN SOP (STANDARD OPERATING PROCEDURE)</strong>
+                    <span>Pembuatan panduan operasional baku agar seluruh proses kerja berjalan konsisten.</span>
+                  </div>
+                </li>
+
+                <li class="feature-item">
+                  <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                  <div class="feature-text">
+                    <strong>PENETAPAN KPI (KEY PERFORMANCE INDICATOR)</strong>
+                    <span>Standar metrik keberhasilan kuantitatif dan kualitatif untuk mengevaluasi tiap karyawan.</span>
+                  </div>
+                </li>
+
+                <li class="feature-item">
+                  <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                  <div class="feature-text">
+                    <strong>PROGRAM PELATIHAN DAN PENGEMBANGAN SDM</strong>
+                    <span>Sesi pelatihan aplikatif untuk meningkatkan skill, etos kerja, dan kekompakan tim.</span>
+                  </div>
+                </li>
+
+                <li class="feature-item">
+                  <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                  <div class="feature-text">
+                    <strong>EVALUASI DAN PENGELOLAAN KINERJA SDM</strong>
+                    <span>Monitoring berkala dan pemberian rekomendasi perbaikan demi pertumbuhan bisnis.</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- Direct WhatsApp Booking CTA -->
+              <div class="pricing-actions">
+                <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20tertarik%20mengambil%20Package%20Pricelist%20SDM%20Rp%207.500.000.%20Bisa%20jadwalkan%20sesi%20konsultasi?" target="_blank" rel="noopener" class="btn btn-primary btn-lg w-100">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>Pesan Paket Rp 7.500.000 via WhatsApp</span>
+                </a>
+                <p class="pricing-note"><i class="fa-solid fa-lock"></i> Konsultasi awal tanpa komitmen • Pembayaran fleksibel per termin</p>
+              </div>
+            </div>
+
+            <!-- Right: Visual Arch & Statistics -->
+            <div class="pricing-visual-card">
+              <div class="arch-image-box">
+                <img src="assets/img/service-hands-arched.png" alt="Pengembangan SDM Terpercaya" class="arch-img">
+              </div>
+
+              <!-- Highlight Stats Box -->
+              <div class="pricing-benefit-card">
+                <div class="benefit-item">
+                  <i class="fa-solid fa-certificate"></i>
+                  <div>
+                    <h5>Dokumen Legal & Siap Pakai</h5>
+                    <p>Format file SOP, jobdesc & form KPI diserahkan lengkap (DOCX, PDF, XLSX).</p>
+                  </div>
+                </div>
+
+                <div class="benefit-item">
+                  <i class="fa-solid fa-people-arrows"></i>
+                  <div>
+                    <h5>Pendampingan Langsung</h5>
+                    <p>Bukan hanya teori, konsultan kami turun langsung mengawal implementasi.</p>
+                  </div>
+                </div>
+
+                <div class="benefit-item">
+                  <i class="fa-solid fa-hand-holding-dollar"></i>
+                  <div>
+                    <h5>Efisiensi Biaya Operasional</h5>
+                    <p>Jauh lebih hemat dibandingkan mendirikan in-house HR department dari nol.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT & LOCATION SECTION (Slide 7) ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <div class="section-tag-pill">
+            <i class="fa-solid fa-headset"></i>
+            <span>Hubungi Kami</span>
+          </div>
+          <h2 class="section-title">Mari Mulai Transformasi SDM Bisnis Anda</h2>
+          <p class="section-desc">
+            Punya pertanyaan atau ingin mendiskusikan kebutuhan khusus perusahaan Anda? Hubungi kami langsung melalui WhatsApp, telepon, atau kunjungi kantor kami.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Official Contact Details Cards -->
+          <div class="contact-info-col">
+            <!-- 1. Phone / WhatsApp Card -->
+            <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20ingin%20berdiskusi%20tentang%20pengelolaan%20SDM." target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-box bg-call">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Call & WhatsApp</span>
+                <span class="contact-value">0823 5713 1943</span>
+                <span class="contact-sub">Klik untuk langsung chat atau telepon</span>
+              </div>
+              <div class="contact-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+            <!-- 2. Instagram Card -->
+            <a href="https://instagram.com/immersive.management" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-box bg-instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Social Media</span>
+                <span class="contact-value">@immersive.management</span>
+                <span class="contact-sub">Follow kabar, tips SDM & portofolio terbaru</span>
+              </div>
+              <div class="contact-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+            <!-- 3. Office Location Card -->
+            <div class="contact-card location-card">
+              <div class="contact-icon-box bg-location">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Office Location</span>
+                <span class="contact-value">Perumahan Grand Sulawesi Toddopuli</span>
+                <span class="contact-address">Blok B No. 21, Jl Toddopuli X, Makassar, Sulawesi Selatan</span>
+                <a href="https://maps.google.com/?q=Perumahan+Grand+Sulawesi+Toddopuli+Jl+Toddopuli+X" target="_blank" rel="noopener" class="map-link">
+                  <i class="fa-solid fa-map-location-dot"></i> Buka Petunjuk Arah di Google Maps
+                </a>
+              </div>
+            </div>
+
+            <!-- Phone Mockup Preview from Slide 7 -->
+            <div class="phone-mockup-wrapper">
+              <img src="assets/img/contact-phone-transparent.png" alt="Kontak Immersive Management" class="phone-img">
+              <div class="phone-caption">
+                <strong>Respon Cepat:</strong> Jam Kerja Senin - Sabtu (09.00 - 18.00 WITA)
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Consultation Inquiry Form -->
+          <div class="contact-form-col">
+            <div class="form-container-card">
+              <div class="form-header">
+                <h3>Formulir Konsultasi Kebutuhan SDM</h3>
+                <p>Isi form singkat ini untuk menerima rekomendasi solusi dan proposal yang disesuaikan.</p>
+              </div>
+
+              <form id="consultationForm" class="inquiry-form">
+                <div class="form-group">
+                  <label for="clientName"><i class="fa-regular fa-user"></i> Nama Lengkap</label>
+                  <input type="text" id="clientName" name="name" class="form-input" placeholder="Contoh: Bpk. Rahmat Santoso" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="companyName"><i class="fa-solid fa-building"></i> Nama Perusahaan / Bisnis</label>
+                  <input type="text" id="companyName" name="company" class="form-input" placeholder="Contoh: PT Kuliner Nusantara" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-6">
+                    <label for="whatsappNumber"><i class="fa-brands fa-whatsapp"></i> No. WhatsApp</label>
+                    <input type="tel" id="whatsappNumber" name="phone" class="form-input" placeholder="08xxxxxxxxxx" required>
+                  </div>
+
+                  <div class="form-group col-6">
+                    <label for="businessSector"><i class="fa-solid fa-tags"></i> Sektor Usaha</label>
+                    <select id="businessSector" name="sector" class="form-input">
+                      <option value="Kuliner / F&B">Kuliner / Food & Beverage</option>
+                      <option value="Properti & Hospitality">Properti & Hospitality</option>
+                      <option value="Retail & Toko">Retail & Perdagangan</option>
+                      <option value="Percetakan & Manufaktur">Percetakan & Manufaktur</option>
+                      <option value="Agency & Periklanan">Agency & Periklanan</option>
+                      <option value="Travel & Pariwisata">Travel & Pariwisata</option>
+                      <option value="Jasa / Lainnya">Jasa / Sektor Lainnya</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="serviceNeed"><i class="fa-solid fa-list-check"></i> Kebutuhan Utama Saat Ini</label>
+                  <select id="serviceNeed" name="need" class="form-input">
+                    <option value="Paket Lengkap All-in-One (Rp 7.500.000)">Paket Lengkap All-in-One (Rp 7.500.000)</option>
+                    <option value="Penyusunan SOP & Jobdesc">Penyusunan SOP & Job Description</option>
+                    <option value="Penetapan KPI & Evaluasi Kinerja">Penetapan KPI & Evaluasi Kinerja Karyawan</option>
+                    <option value="Perekrutan Karyawan Baru">Perekrutan Karyawan Baru Berkualitas</option>
+                    <option value="Pelatihan & Up-Skilling Tim">Pelatihan & Up-Skilling Tim</option>
+                    <option value="Konsultasi Diagnosa SDM">Konsultasi Diagnosa Permasalahan SDM</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="clientMessage"><i class="fa-regular fa-comment-dots"></i> Deskripsi Singkat Kendala / Harapan</label>
+                  <textarea id="clientMessage" name="message" rows="3" class="form-input" placeholder="Ceritakan jumlah karyawan saat ini atau kendala operasional yang ingin diselesaikan..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg w-100 btn-submit">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>Kirim & Mulai Chat di WhatsApp</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== SITE FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <img src="assets/img/logo-icon-white.png" alt="Immersive Management" class="footer-logo-img">
+            <div>
+              <div class="footer-brand-title">IMMERSIVE MANAGEMENT</div>
+              <div class="footer-brand-sub">Solusi Strategis SDM Untuk Bisnis Yang Lebih Baik</div>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Anak perusahaan dari <strong>Kiosatu Digital Marketing</strong> yang berkomitmen mendampingi transformasi sumber daya manusia untuk melahirkan tim yang tangguh, produktif, dan siap membawa bisnis berkembang pesat.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com/immersive.management" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/6282357131943" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="tel:082357131943" class="social-btn" aria-label="Telepon">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Navigasi Cepat</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#vision-mission">Visi & Misi</a></li>
+            <li><a href="#portfolio">Our Portofolio</a></li>
+            <li><a href="#workflow">Tahap Pekerjaan</a></li>
+            <li><a href="#pricing">Package Pricelist</a></li>
+            <li><a href="#contact">Kontak Kami</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-services-col">
+          <h4 class="footer-heading">Layanan Unggulan</h4>
+          <ul class="footer-links-list">
+            <li><i class="fa-solid fa-check text-accent"></i> Perekrutan SDM Berkualitas</li>
+            <li><i class="fa-solid fa-check text-accent"></i> Analisis Jabatan & Jobdesc</li>
+            <li><i class="fa-solid fa-check text-accent"></i> Penyusunan SOP Per Divisi</li>
+            <li><i class="fa-solid fa-check text-accent"></i> Penetapan Target KPI Karyawan</li>
+            <li><i class="fa-solid fa-check text-accent"></i> Pelatihan & Pengembangan Tim</li>
+            <li><i class="fa-solid fa-check text-accent"></i> Evaluasi Kinerja Terukur</li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Informasi Kontak</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>0823 5713 1943</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-instagram"></i>
+            <span>@immersive.management</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Perumahan Grand Sulawesi Toddopuli Blok B No. 21, Jl Toddopuli X, Makassar</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Senin - Sabtu: 09:00 - 18:00 WITA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Immersive Management. Anak Perusahaan dari Kiosatu Digital Marketing. Hak Cipta Dilindungi Undang-Undang.</p>
+        <div class="footer-bottom-links">
+          <a href="#hero">Kembali ke Atas <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+  <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20SDM." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Chat WhatsApp Langsung">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="floating-wa-tooltip">Butuh Bantuan? Chat Kami</span>
+  </a>
+
+  <!-- ==================== MOBILE BOTTOM QUICK ACTION BAR ==================== -->
+  <div class="mobile-bottom-bar" aria-label="Aksi Cepat Mobile">
+    <a href="https://wa.me/6282357131943?text=Halo%20Immersive%20Management,%20saya%20ingin%20konsultasi." target="_blank" rel="noopener" class="bottom-bar-action wa-action">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="tel:082357131943" class="bottom-bar-action call-action">
+      <i class="fa-solid fa-phone"></i>
+      <span>Telepon</span>
+    </a>
+    <button type="button" class="bottom-bar-action deck-action" id="mobileBottomDeckBtn">
+      <i class="fa-solid fa-person-chalkboard"></i>
+      <span>Pitch Deck</span>
+    </button>
+    <a href="#pricing" class="bottom-bar-action price-action">
+      <i class="fa-solid fa-tags"></i>
+      <span>Harga</span>
+    </a>
+  </div>
+
+  <!-- ==================== PITCH DECK PRESENTATION MODAL (Slides 1 to 7) ==================== -->
+  <div class="pitch-modal" id="pitchModal" role="dialog" aria-modal="true" aria-label="Mode Presentasi Pitch Deck">
+    <div class="pitch-modal-backdrop" id="pitchBackdrop"></div>
+    <div class="pitch-modal-window">
+      <!-- Modal Header / Controls Bar -->
+      <div class="pitch-modal-header">
+        <div class="pitch-modal-brand">
+          <img src="assets/img/logo-icon.png" alt="Logo" class="modal-logo">
+          <span>Pitch Deck Viewer • <strong>Immersive Management</strong></span>
+        </div>
+        <div class="pitch-modal-controls">
+          <span class="slide-counter-badge" id="slideCounter">Slide 1 dari 7</span>
+          <button type="button" class="control-btn" id="toggleFullscreenBtn" title="Mode Layar Penuh">
+            <i class="fa-solid fa-expand"></i>
+          </button>
+          <button type="button" class="control-btn btn-close-modal" id="closePitchModalBtn" title="Tutup Presentasi">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide Viewport Area -->
+      <div class="pitch-slide-viewport">
+        <!-- Slide 1: Cover -->
+        <div class="deck-slide active" data-slide="1">
+          <div class="deck-slide-inner slide-cover">
+            <div class="slide-cover-bg" style="background-image: url('assets/img/hero-meeting.jpg');"></div>
+            <div class="slide-cover-overlay"></div>
+            <div class="slide-cover-content text-center">
+              <img src="assets/img/logo-icon-white.png" alt="Logo Immersive Management" class="slide-logo">
+              <h1 class="slide-brand-title">IMMERSIVE<br>MANAGEMENT</h1>
+              <div class="slide-title-bar"></div>
+              <h2 class="slide-brand-subtitle">SOLUSI STRATEGIS SDM UNTUK BISNIS YANG LEBIH BAIK.</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: About Us -->
+        <div class="deck-slide" data-slide="2">
+          <div class="deck-slide-inner slide-about-layout">
+            <div class="slide-grid-2col">
+              <div class="slide-left-col">
+                <div class="slide-pill-title">About Us</div>
+                <div class="slide-monitor-box">
+                  <img src="assets/img/about-monitor-transparent.png" alt="Monitor Mockup" class="slide-monitor-img">
+                </div>
+              </div>
+              <div class="slide-right-col">
+                <div class="slide-big-quote"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="slide-lead-text">
+                  <strong>Immersive Management</strong> adalah anak perusahaan dari <strong>Kiosatu Digital Marketing</strong> yang secara khusus bergerak di bidang <strong>konsultasi dan pengelolaan Sumber Daya Manusia</strong>.
+                </p>
+                <p class="slide-sub-text">
+                  Kami berkomitmen membantu perusahaan membangun organisasi yang sehat, produktif, dan berdaya saing melalui sistem SDM yang terukur dan berkelanjutan.
+                </p>
+                <div class="slide-badge-row">
+                  <span class="slide-tag"><i class="fa-solid fa-shield-check"></i> Organisasi Sehat</span>
+                  <span class="slide-tag"><i class="fa-solid fa-chart-line"></i> Sistem Terukur</span>
+                  <span class="slide-tag"><i class="fa-solid fa-seedling"></i> Berkelanjutan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Vision & Mission -->
+        <div class="deck-slide" data-slide="3">
+          <div class="deck-slide-inner slide-vm-layout">
+            <div class="slide-vm-col vision-slide-part">
+              <div class="slide-pill-title purple">Vision</div>
+              <div class="slide-quote-box">
+                <p class="slide-vision-quote">
+                  "Menjadi mitra terpercaya dalam pengelolaan dan pengembangan SDM yang mendorong individu, tim, dan perusahaan untuk terus bertumbuh secara berkelanjutan."
+                </p>
+              </div>
+            </div>
+            <div class="slide-vm-col mission-slide-part">
+              <div class="slide-pill-title purple">Mission</div>
+              <ul class="slide-mission-list">
+                <li><i class="fa-solid fa-circle-dot"></i> Merekrut talenta sesuai kebutuhan perusahaan.</li>
+                <li><i class="fa-solid fa-circle-dot"></i> Membangun sistem organisasi yang efektif dan terstruktur.</li>
+                <li><i class="fa-solid fa-circle-dot"></i> Mengembangkan SOP dan KPI yang mendukung produktivitas.</li>
+                <li><i class="fa-solid fa-circle-dot"></i> Meningkatkan kompetensi SDM melalui pelatihan berkelanjutan.</li>
+                <li><i class="fa-solid fa-circle-dot"></i> Mengelola dan mengevaluasi kinerja secara objektif dan terukur.</li>
+                <li><i class="fa-solid fa-circle-dot"></i> Menjadi mitra strategis dalam pertumbuhan bisnis klien.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: Our Portfolio -->
+        <div class="deck-slide" data-slide="4">
+          <div class="deck-slide-inner slide-portfolio-layout">
+            <div class="slide-header-box text-center">
+              <h2 class="slide-hero-heading">Our Portofolio</h2>
+              <p class="slide-hero-sub">Mereka yang telah mempercayai Immersive Management</p>
+            </div>
+            <div class="slide-logos-grid">
+              <div class="logo-item-wrap"><img src="assets/portfolio/delft-apartemen.png" alt="Delft Apartemen"><span>Delft Apartemen</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/pizza-nyantuy.png" alt="Pizza Nyantuy"><span>Pizza Nyantuy</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/pisang-madu-paman.png" alt="Pisang Madu Paman"><span>Pisang Madu Paman</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/vindes24.png" alt="Vindes24"><span>Vindes24 Digital Printing</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/mawar-advertising.png" alt="Mawar Advertising"><span>Mawar Advertising</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/printama-packaging.png" alt="Printama Packaging"><span>Printama Packaging</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/qiblatain.png" alt="Qiblatain Moslem Travel"><span>Qiblatain Travel</span></div>
+              <div class="logo-item-wrap"><img src="assets/portfolio/kacamata-sfi.png" alt="Kacamata SFI"><span>Kacamata SFI</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5: Tahap Pekerjaan -->
+        <div class="deck-slide" data-slide="5">
+          <div class="deck-slide-inner slide-workflow-layout">
+            <div class="slide-pill-title purple">Tahap Pekerjaan</div>
+            <div class="slide-stages-tree">
+              <!-- Top Row: Steps 1, 2, 3 -->
+              <div class="tree-row">
+                <div class="tree-node">
+                  <div class="node-title">Assesment & Observasi</div>
+                  <div class="node-desc">Wawancara dengan pimpinan & observasi langsung kepada karyawan untuk pemenuhan data.</div>
+                </div>
+                <div class="tree-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="tree-node">
+                  <div class="node-title">Analisis Organisasi & SDM</div>
+                  <div class="node-desc">Menganalisis struktur organisasi, kebutuhan SDM, serta pembagian tugas & tanggung jawab.</div>
+                </div>
+                <div class="tree-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="tree-node">
+                  <div class="node-title">Penyusunan Sistem SDM</div>
+                  <div class="node-desc">Menyusun struktur organisasi, job description, analisis jabatan, dan SOP setiap divisi.</div>
+                </div>
+              </div>
+
+              <!-- Middle Connecting Center: Step 4 KPI -->
+              <div class="tree-center">
+                <div class="tree-kpi-node">
+                  <div class="node-title badge-kpi"><i class="fa-solid fa-bullseye"></i> Penetapan KPI</div>
+                  <div class="node-desc">Menyusun indikator kinerja dan target kerja untuk setiap posisi dan divisi.</div>
+                </div>
+              </div>
+
+              <!-- Bottom Row: Steps 5, 6, 7 -->
+              <div class="tree-row">
+                <div class="tree-node">
+                  <div class="node-title">Pengembangan SDM</div>
+                  <div class="node-desc">Melaksanakan pelatihan dan pengembangan kompetensi sesuai kebutuhan perusahaan.</div>
+                </div>
+                <div class="tree-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="tree-node">
+                  <div class="node-title">Implementasi & Pendampingan</div>
+                  <div class="node-desc">Mendampingi penerapan sistem SDM, SOP, dan KPI agar berjalan efektif.</div>
+                </div>
+                <div class="tree-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="tree-node highlight">
+                  <div class="node-title">Evaluasi & Pengembangan Berkelanjutan</div>
+                  <div class="node-desc">Evaluasi kinerja serta rekomendasi perbaikan untuk mendukung pertumbuhan perusahaan.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 6: Package Pricelist -->
+        <div class="deck-slide" data-slide="6">
+          <div class="deck-slide-inner slide-pricing-layout">
+            <div class="slide-pricing-2col">
+              <div class="slide-pricing-left">
+                <div class="slide-pill-title white">Package Pricelist</div>
+                <div class="slide-price-tag">RP 7.500.000</div>
+                <ul class="slide-checklist">
+                  <li><i class="fa-solid fa-circle-check"></i> PEREKRUTAN SDM BERKUALITAS DAN ANALISIS JABATAN</li>
+                  <li><i class="fa-solid fa-circle-check"></i> PENYUSUNAN JOBDESC DAN STRUKTUR ORGANISASI</li>
+                  <li><i class="fa-solid fa-circle-check"></i> PENGEMBANGAN SOP (STANDARD OPERATING PROCEDURE)</li>
+                  <li><i class="fa-solid fa-circle-check"></i> PENETAPAN KPI (KEY PERFORMANCE INDICATOR)</li>
+                  <li><i class="fa-solid fa-circle-check"></i> PROGRAM PELATIHAN DAN PENGEMBANGAN SDM</li>
+                  <li><i class="fa-solid fa-circle-check"></i> EVALUASI DAN PENGELOLAAN KINERJA SDM</li>
+                </ul>
+              </div>
+              <div class="slide-pricing-right">
+                <div class="slide-arch-container">
+                  <img src="assets/img/service-hands-arched.png" alt="Solusi SDM" class="slide-arch-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 7: Contact -->
+        <div class="deck-slide" data-slide="7">
+          <div class="deck-slide-inner slide-contact-layout">
+            <div class="slide-contact-2col">
+              <div class="slide-contact-left">
+                <div class="slide-contact-headline">CONTACT</div>
+                
+                <div class="slide-contact-box">
+                  <div class="contact-pill-item">
+                    <span class="pill-title">Call</span>
+                    <span class="pill-val">0823 5713 1943</span>
+                  </div>
+
+                  <div class="contact-pill-item">
+                    <span class="pill-title">Social Media</span>
+                    <span class="pill-val">@immersive.management</span>
+                  </div>
+
+                  <div class="contact-pill-item">
+                    <span class="pill-title">Location</span>
+                    <span class="pill-val">Perumahan Grand Sulawesi Toddopuli Blok B No. 21, Jl Toddopuli X</span>
+                  </div>
+                </div>
+
+                <div class="slide-contact-cta">
+                  <a href="https://wa.me/6282357131943" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                    <i class="fa-brands fa-whatsapp"></i> Chat Kami Langsung
+                  </a>
+                </div>
+              </div>
+
+              <div class="slide-contact-right">
+                <div class="slide-phone-container">
+                  <img src="assets/img/contact-phone-transparent.png" alt="Phone Contact" class="slide-phone-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide Navigation Footer -->
+      <div class="pitch-modal-footer">
+        <button type="button" class="btn btn-outline" id="prevSlideBtn">
+          <i class="fa-solid fa-chevron-left"></i> Slide Sebelumnya
+        </button>
+
+        <div class="slide-dots-container" id="slideDots">
+          <button type="button" class="slide-dot active" data-slide-index="1" title="Slide 1"></button>
+          <button type="button" class="slide-dot" data-slide-index="2" title="Slide 2"></button>
+          <button type="button" class="slide-dot" data-slide-index="3" title="Slide 3"></button>
+          <button type="button" class="slide-dot" data-slide-index="4" title="Slide 4"></button>
+          <button type="button" class="slide-dot" data-slide-index="5" title="Slide 5"></button>
+          <button type="button" class="slide-dot" data-slide-index="6" title="Slide 6"></button>
+          <button type="button" class="slide-dot" data-slide-index="7" title="Slide 7"></button>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="nextSlideBtn">
+          Slide Berikutnya <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
